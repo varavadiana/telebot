@@ -8,8 +8,8 @@ import requests  # pip install requests , ip адрес
 import telebot
 from telebot import types
 
-TOKEN = "5803018250:AAEzbAMz98BkELgZmoLxNahOrPAmTmI1dFk"  # Вписываем токен каторый можно взять в телеграмм у BotFather
-CHAT_ID = "1743786787 "  # запрашиваем в телеграмм у @ShowJsonBot
+TOKEN = ""  # Вписываем токен каторый можно взять в телеграмм у BotFather
+CHAT_ID = " "  # запрашиваем в телеграмм у @ShowJsonBot
 client = telebot.TeleBot(TOKEN)
 requests.post(f"https://api.telegram.org/bot{TOKEN}/sendMessage?chat_id={CHAT_ID}&text=Что там интересного у тебя на ноуте?")  # выводит в телеграм когда пишем боту
 
